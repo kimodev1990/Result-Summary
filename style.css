@@ -8,12 +8,12 @@ body{font-family: 'Hanken Grotesk', sans-serif;}
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;}
+    }
 
 .container{ background-color: white;
             display: flex;
             min-width: 50vw;
-            min-height: 75vh;
+            height: 550px;
             border-radius: 20px;
             box-shadow: 3px 3px 10px ;
             flex-shrink: 0;}
@@ -110,7 +110,7 @@ body{font-family: 'Hanken Grotesk', sans-serif;}
         margin-left: auto;
         margin-right: auto;
         border-radius: 50px;
-        padding: 12px;
+        padding: 20px;
         color: white;
         background-color: rgb(12, 9, 82);
         font-size: 13px;
@@ -121,8 +121,8 @@ body{font-family: 'Hanken Grotesk', sans-serif;}
 .container{     flex-direction: column;
                 width: 50%;
                 min-width: 320px;
-                border-top-right-radius: 0;
-                border-top-left-radius: 0;}
+                border-radius: 0;
+                height: 680px;}
 
 .left{  border-top-right-radius: 0;
         border-top-left-radius: 0;}
